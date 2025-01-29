@@ -1,0 +1,36 @@
+div{
+    box-sizing: border-box;
+    background-color: white;
+  }
+  
+  body {
+    font-family: Arial;
+    padding: 10px;
+    background: azure;
+  }
+
+  .leftcolumn{
+    width: 70%;
+    float: left;
+    position: static;
+  }
+
+  .rightcolumn{
+    width: 30%;
+    padding-left: 20px;
+    position: static;
+    display: inline-block;
+  }
+
+  .fakeimg{
+    background-color: lightgray;
+    width: 100%;
+    padding: 20px;
+    text-align: center;
+  }
+
+  .card{
+    font-weight: bold;
+    padding: 20px;
+    margin-top: 20px;
+  }

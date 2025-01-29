@@ -1,0 +1,23 @@
+h1 {
+    color: orange;
+}
+
+p {
+    text-align: right;
+}
+
+body{
+    background-color: white;
+}
+
+
+.descripcion{
+    font-weight: bold;
+    color: blue;
+}
+
+.especial{
+    background-color: lightblue;
+}
+
+

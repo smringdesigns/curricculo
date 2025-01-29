@@ -1,0 +1,21 @@
+<svg width="71" height="71" viewBox="0 0 71 71" fill="none" xmlns="http://www.w3.org/2000/svg">
+<circle cx="35.5" cy="35.5" r="34.5" fill="url(#paint0_radial_884_154)"/>
+<mask id="mask0_884_154" style="mask-type:alpha" maskUnits="userSpaceOnUse" x="1" y="1" width="69" height="69">
+<ellipse cx="35.5001" cy="35.5001" rx="34.5001" ry="34.5001" fill="url(#paint1_radial_884_154)"/>
+</mask>
+<g mask="url(#mask0_884_154)">
+<path d="M14.9785 69.5325C14.9785 69.8087 15.2024 70.0325 15.4785 70.0325H27.3286C27.6048 70.0325 27.8286 69.8087 27.8286 69.5325V55.9275H37.6426C42.2783 55.9275 46.3003 55.1886 49.6944 53.6926L49.6944 53.6926L49.6999 53.6901C53.0936 52.1444 55.7313 49.941 57.5926 47.0762C59.4571 44.2065 60.3798 40.8199 60.3798 36.9376C60.3798 33.0079 59.4577 29.5966 57.5926 26.7259C55.7308 23.8603 53.0922 21.6808 49.6972 20.1838C46.3021 18.638 42.279 17.8745 37.6426 17.8745H15.4785C15.2024 17.8745 14.9785 18.0984 14.9785 18.3745V69.5325ZM36.9843 45.2806H27.8286V28.5215H36.9843C40.5831 28.5215 43.1742 29.2904 44.85 30.7384C46.5239 32.1848 47.3834 34.2274 47.3834 36.9376C47.3834 39.5959 46.5259 41.6155 44.85 43.0636C43.1742 44.5117 40.5831 45.2806 36.9843 45.2806Z" fill="white" stroke="#0B404C" stroke-linejoin="round"/>
+</g>
+<defs>
+<radialGradient id="paint0_radial_884_154" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(35.7488 0.999995) rotate(27.3777) scale(60.8716 65.8766)">
+<stop stop-color="#FDED5C"/>
+<stop offset="0.64159" stop-color="#8ED3FF"/>
+<stop offset="1" stop-color="#0088FF"/>
+</radialGradient>
+<radialGradient id="paint1_radial_884_154" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(35.7489 0.999995) rotate(27.3777) scale(60.8717 65.8768)">
+<stop stop-color="#FDED5C"/>
+<stop offset="0.64159" stop-color="#8ED3FF"/>
+<stop offset="1" stop-color="#0088FF"/>
+</radialGradient>
+</defs>
+</svg>

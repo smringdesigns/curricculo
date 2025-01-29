@@ -1,0 +1,12 @@
+div{
+    width: 200px;
+    background-color: lightgrey;
+    margin: 10px;
+}
+
+.importante{
+    background-color: orange;
+    position: fixed;
+    top: 6%;
+    left: 250px;
+}

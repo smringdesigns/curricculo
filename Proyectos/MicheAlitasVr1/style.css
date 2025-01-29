@@ -1,0 +1,61 @@
+h1{
+    color: yellow;
+    text-align: center;
+    font-style: italic;
+    font-size: 50px;
+}
+
+h2{
+    color: #00FFFF;
+    font-style: italic;
+    font-size: 20px larger;
+    text-align: center;
+}
+
+.menu{
+    color: red;
+    border: lightgrey;
+    font-weight: bold;
+    font-size: 40px;
+}
+
+div{
+    width: 100%;
+    background-color: lightgrey;
+    text-align: center;
+}
+
+p{
+    font-family: 'Courier New', Courier, monospace;
+    border: 15px solid orange;
+    padding: 50px;
+    margin: 20px;
+}
+
+.bloque1{
+    display: block;
+}
+
+.bloque2{
+    display: inline-block;
+}
+
+.bloque3{
+    display: block;
+}
+
+.bloque4{
+    display: inline-block;
+}
+
+.bloque5{
+    display: block;
+}
+
+.bloque6{
+    display: inline-block;
+}
+
+
+
+

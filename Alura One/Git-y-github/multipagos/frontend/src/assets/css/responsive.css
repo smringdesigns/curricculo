@@ -1,0 +1,1983 @@
+/*
+* ----------------------------------------------------------------------------------------
+* 02.Global CSS STYLE
+* ----------------------------------------------------------------------------------------
+*/
+
+@media screen and (max-width: 991px) {
+    .container,
+    .container-lg,
+    .container-md,
+    .container-sm,
+    .container-xl {
+        max-width: 990px;
+    }
+
+    h1 {
+        font-size: 45px;
+        font-weight: 700;
+        line-height: 51px;
+    }
+
+    h2 {
+        font-size: 36px;
+        font-weight: 600;
+        line-height: 42px;
+    }
+
+    h3 {
+        font-size: 30px;
+        font-weight: 600;
+        line-height: 36px;
+    }
+
+    h4 {
+        font-size: 18px;
+        font-weight: 600;
+        line-height: 24px;
+    }
+
+    h5 {
+        font-size: 16px;
+        font-weight: 600;
+        line-height: 22px;
+    }
+
+    h6 {
+        font-size: 14px;
+        font-weight: 500;
+        line-height: 20px;
+    }
+
+    p {
+        font-size: 14px;
+        line-height: 20px;
+    }
+
+    button,
+    a {
+        font-size: 14px;
+        line-height: 22px;
+    }
+
+    .hover2 {
+        font-size: 16px;
+    }
+
+    .hover3,
+    .hover2,
+    .hover1 {
+        padding: 12px 28px;
+    }
+
+    .modal-body {
+        width: 100%;
+    }
+
+    .modal-dialog {
+        width: 90%;
+    }
+
+    .scrollToTop {
+        width: 50px;
+        height: 50px;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    h1 {
+        font-size: 40px;
+        font-weight: 600;
+        line-height: 46px;
+    }
+
+    h2 {
+        font-size: 32px;
+        font-weight: 600;
+        line-height: 38px;
+    }
+
+    h3 {
+        font-size: 26px;
+        font-weight: 700;
+        line-height: 32px;
+    }
+
+    h4 {
+        font-size: 18px;
+        font-weight: 700;
+        line-height: 24px;
+    }
+
+    h5 {
+        font-size: 16px;
+        font-weight: 450;
+        line-height: 22px;
+    }
+
+    h6 {
+        font-size: 14px;
+        font-weight: 450;
+        line-height: 20px;
+    }
+
+    p {
+        font-size: 12px;
+        line-height: 18px;
+    }
+
+    .hover1 {
+        padding: 12px 30px;
+    }
+
+    .hover2 {
+        font-size: 14px;
+    }
+
+    .scrollToTop {
+        width: 35px;
+        height: 35px;
+    }
+}
+
+/*
+* ----------------------------------------------------------------------------------------
+* 03.Header CSS STYLE
+* ----------------------------------------------------------------------------------------
+*/
+
+@media screen and (max-width: 991px) {
+    header .open-aside {
+        display: block;
+    }
+
+    header nav {
+        padding: 10px 30px !important;
+    }
+
+    header .nav-logo img {
+        width: 130px;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    header #getStartedAnchor {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    header .nav-logo img {
+        width: 101px;
+    }
+
+    header nav {
+        padding: 10px 12px !important;
+    }
+}
+
+/*
+* ----------------------------------------------------------------------------------------
+* 04.Hero CSS STYLE
+* ----------------------------------------------------------------------------------------
+*/
+
+@media screen and (max-width: 1399px) {
+    .Hero p {
+        padding: 35px 0px 40px;
+    }
+
+    .Hero .position-absolute {
+        width: 100px;
+        left: 0px;
+    }
+}
+
+@media screen and (max-width: 1199px) {
+    .Hero h1 {
+        font-size: 75px;
+        line-height: 80px;
+    }
+
+    .Hero p {
+        padding: 25px 0px 30px;
+    }
+}
+
+@media screen and (max-width: 991px) {
+    .Hero {
+        padding: 20px 0px;
+    }
+
+    .Hero h1 {
+        font-size: 30px;
+        line-height: 51px;
+        letter-spacing: 4px;
+    }
+
+    .Hero .position-absolute {
+        width: 80px;
+    }
+
+    .Hero p {
+        padding: 15px 0px 20px;
+    }
+
+    .Hero .position-relative::before {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .Hero .position-relative::before {
+        width: 100%;
+        height: 100%;
+        background: url("../images/bg/hero_bg.webp") center center / cover no-repeat;
+        background-size: 112% 131%;
+    }
+
+    .Hero .w-100 {
+        padding: 0px 30px;
+    }
+
+    .Hero .position-absolute {
+        left: 10%;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .Hero {
+        padding: 50px 0px;
+    }
+
+    .Hero h1 {
+        font-size: 40px;
+        line-height: 46px;
+    }
+
+    .Hero .position-absolute {
+        width: 21%;
+    }
+
+    .Hero .position-relative::before {
+        background-size: 90% 130%;
+        background-position: 100%;
+    }
+}
+
+/*
+* ----------------------------------------------------------------------------------------
+* 05.About CSS STYLE
+* ----------------------------------------------------------------------------------------
+*/
+
+@media screen and (max-width: 1399px) {
+    .About .flex-column p {
+        padding: 15px 39px 30px 0px;
+    }
+
+    .About .border-1 p {
+        width: 87%;
+    }
+
+    .About .border-1 hr {
+        margin: 0px 50px 0px 0px;
+    }
+}
+
+@media screen and (max-width: 1199px) {
+    .About .flex-column p {
+        padding: 15px 0px 30px;
+    }
+
+    .About .border-1 p {
+        width: 100%;
+    }
+
+    .About .border-1 hr {
+        margin: 0px 40px;
+    }
+
+    .About .border-1 {
+        padding: 50px 34px 45px;
+    }
+
+    .About .border-1 hr {
+        margin: 0px 35px;
+    }
+
+    .About .flex-column {
+        padding: 50px 34px 40px;
+    }
+
+    .About .border-1 .gap-2 p {
+        font-size: 14px;
+    }
+}
+
+@media screen and (max-width: 991px) {
+    .About p {
+        font-size: 12px;
+    }
+
+    .About .border-1 .gap-2 p {
+        font-size: 12px;
+    }
+
+    .About .flex-column svg {
+        width: 40px;
+        height: 40px;
+    }
+
+    .About .flex-column p {
+        padding: 10px 0px 30px;
+    }
+
+    .About .border-1 p {
+        padding: 10px 0px 0px;
+    }
+
+    .About .border-1 .gap-2 {
+        margin: 45px 0px 0px;
+    }
+
+    .About .flex-column {
+        padding: 40px 25px 30px;
+    }
+
+    .About .gap-lg-2 {
+        font-size: 14px;
+    }
+
+    .About .border-1 {
+        padding: 40px 25px 30px;
+    }
+
+    .About .border-1 img {
+        width: 40px;
+    }
+
+    .About .border-1 hr {
+        margin: 0px 36px;
+    }
+}
+
+@media screen and (max-width: 767px) {
+
+    .About .flex-column,
+    .About .border-1 {
+        padding: 30px 20px;
+    }
+
+    .About .border-1 hr {
+        margin: 0px 20px;
+    }
+
+    .About .border-1 img {
+        width: 40px;
+        height: 40px;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .About .border-1 .gap-2 p {
+        font-size: 12px;
+        text-align: start;
+    }
+
+    .About .border-1 .gap-2 {
+        margin: 25px 0px 0px;
+    }
+
+    .About .flex-sm-row {
+        flex-wrap: wrap;
+    }
+}
+
+/*
+* ----------------------------------------------------------------------------------------
+* 06.Goal CSS STYLE
+* ----------------------------------------------------------------------------------------
+*/
+
+@media screen and (max-width: 1399px) {
+    .Goal .Goal_Card {
+        padding: 50px 40px
+    }
+
+    .Goal h2 {
+        width: 64%;
+    }
+
+    .Goal .mx-auto p {
+        width: 68%;
+    }
+}
+
+@media screen and (max-width: 1199px) {
+    .Goal .Goal_Card figure {
+        width: 130px;
+        height: 130px;
+    }
+
+    .Goal .Goal_Card img {
+        width: 60px;
+        height: 60px;
+    }
+
+    .Goal .Goal_Card {
+        padding: 40px 20px;
+    }
+
+    .Goal .mx-auto p {
+        width: 81%;
+    }
+}
+
+@media screen and (max-width: 991px) {
+    .Goal {
+        padding: 70px 0px;
+    }
+
+    .Goal .Goal_Card h4 {
+        padding: 20px 0px 15px;
+    }
+
+    .Goal .Goal_Card figure {
+        width: 115px;
+        height: 115px;
+    }
+
+    .Goal .Goal_Card img {
+        width: 50px;
+        height: 50px;
+    }
+
+    .Goal .Goal_Card p {
+        font-size: 12px;
+        padding: 0px;
+    }
+
+    .Goal .mx-auto p {
+        width: 83%;
+    }
+}
+
+
+@media screen and (max-width: 480px) {
+    .Goal {
+        padding: 50px 0px;
+    }
+
+    .Goal h2 {
+        width: 86%;
+    }
+
+    .Goal .Goal_Card h4 {
+        padding: 15px 0px 10px;
+    }
+
+    .Goal .Goal_Card figure {
+        width: 110px;
+        height: 110px;
+    }
+
+    .Goal .Goal_Card {
+        padding: 40px;
+    }
+}
+
+/*
+* ----------------------------------------------------------------------------------------
+* 07.Partners CSS STYLE
+* ----------------------------------------------------------------------------------------
+*/
+
+@media screen and (max-width: 991px) {
+    .Partners .slick-slider img {
+        width: 140px;
+        height: 35px;
+    }
+
+    .Partners .slick-slider {
+        padding: 40px 0px;
+    }
+}
+
+
+@media screen and (max-width: 480px) {
+    .Partners .slick-slider img {
+        width: 120px;
+        height: 30px;
+    }
+
+    .Partners .slick-slider {
+        padding: 30px 0px;
+    }
+}
+
+/*
+* ----------------------------------------------------------------------------------------
+* 08.Process CSS STYLE
+* ----------------------------------------------------------------------------------------
+*/
+
+@media screen and (max-width: 1399px) {
+    .Process .text-center p {
+        padding: 15px 10px 40px 0px;
+    }
+
+    .Process .Process_Card p {
+        width: 86%;
+    }
+}
+
+@media screen and (max-width: 1199px) {
+    .Process h2 {
+        font-size: 45px;
+    }
+}
+
+@media screen and (max-width: 991px) {
+    .Process {
+        padding: 70px 0px;
+    }
+
+    .Process h2 {
+        font-size: 36px;
+    }
+
+    .Process p {
+        font-size: 12px;
+    }
+
+    .Process .text-center p {
+        padding: 10px 10px 30px 0px;
+    }
+
+    .Process .Process_Card h4 {
+        padding: 0px 0px 5px;
+    }
+
+    .Process .Process_Card {
+        gap: 15px;
+    }
+
+    .Process .Process_Card p {
+        width: 98%;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .Process .Process_Card {
+        text-align: center;
+    }
+
+    .Process .text-center p {
+        padding: 10px 20px 30px;
+    }
+
+    .Process .Process_Card p {
+        width: 100%;
+    }
+
+    .Process .hover1 {
+        margin: 40px 0px 0px;
+    }
+
+    .Process .position-relative {
+        margin: 20px 0px 0px;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .Process {
+        padding: 50px 0px;
+    }
+
+    .Process h2 {
+        font-size: 32px;
+    }
+
+    .Process .text-center p {
+        padding: 10px 10px 30px;
+    }
+
+    .Process .hover1 {
+        margin: 30px 0px 0px;
+    }
+
+    .Process .position-relative {
+        margin: 0px;
+    }
+}
+
+/*
+* ----------------------------------------------------------------------------------------
+* 09.Services CSS STYLE
+* ----------------------------------------------------------------------------------------
+*/
+
+@media screen and (max-width: 1399px) {
+    .Services .text-center p {
+        padding: 15px 10px 35px 0px;
+    }
+
+    .Services .ServicesCard p {
+        width: 100%;
+    }
+
+    .Services .ServicesCard {
+        padding: 25px 19px;
+    }
+
+    .Services figure.position-relative img {
+        width: 65%;
+    }
+
+    .Services figure.position-relative::before {
+        left: 0px;
+        width: 100%;
+        height: 104%;
+    }
+
+    .AboutServices h2 {
+        width: 100%;
+    }
+
+    .AboutServices .text-center p {
+        padding: 15px 110px 0px 0px;
+    }
+
+    .AboutServices figure.position-relative img {
+        width: 59%;
+        left: -50px;
+        top: 14px;
+    }
+}
+
+@media screen and (max-width: 1199px) {
+    .Services .text-center p {
+        padding: 15px 0px 35px 0px;
+    }
+
+    .Services .ServicesCard h5 {
+        padding: 0px 15px 12px 0px;
+    }
+
+    .AboutServices figure.position-relative::before {
+        width: 106%;
+        height: 104%;
+    }
+
+    .AboutServices figure.position-relative img {
+        width: 59%;
+        left: -24px;
+        top: 11px;
+    }
+
+    .AboutServices .text-center p {
+        padding: 15px 20px 0px 0px;
+    }
+}
+
+@media screen and (max-width: 991px) {
+    .Services p {
+        font-size: 12px;
+    }
+
+    .Services .position-absolute {
+        padding: 25px 20px;
+        bottom: -155px;
+        left: 20px;
+    }
+
+    .AboutServices figure.position-relative::before {
+        width: 100%;
+        height: 104%;
+    }
+
+    .AboutServices figure.position-relative img {
+        left: -41px;
+        top: 11px;
+    }
+
+    .AboutServices .text-center p {
+        padding: 15px 0px 0px 0px;
+    }
+}
+
+
+@media screen and (max-width: 768px) {
+    .AboutServices figure.position-relative img {
+        left: -33px;
+        top: 9px;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .Services figure.position-relative::before {
+        left: 0px;
+        width: 100%;
+        height: 101.3%;
+    }
+
+    .Services h2 {
+        width: 100%;
+    }
+
+    .Services figure.position-relative img {
+        width: 50%;
+        position: relative;
+        left: -6%;
+    }
+
+    .Services .position-absolute {
+        bottom: -16%;
+        left: 30%;
+    }
+
+    .Services .position-absolute .justify-content-between figure {
+        width: 40px;
+        height: 40px;
+    }
+
+    .Services .position-absolute {
+        padding: 20px 15px;
+    }
+
+    .AboutServices figure.position-relative img {
+        top: 0px;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .Services .ServicesCard h5 {
+        padding: 0px 0px 8px 0px;
+    }
+
+    .Services .text-center p {
+        padding: 10px 0px 25px 0px;
+    }
+
+    .Services .pt-4 {
+        margin: 10px 0px 0px;
+    }
+
+    .Services .position-absolute {
+        bottom: -34%;
+    }
+
+    .AboutServices .text-center p {
+        padding: 10px 0px 0px 0px;
+    }
+}
+
+@media screen and (max-width: 360px) {
+    .Services .gap-3 {
+        flex-direction: column;
+    }
+
+    .Services .ServicesCard {
+        text-align: center;
+    }
+
+    .Services figure.position-relative img {
+        width: 60%;
+    }
+
+    .Services .position-absolute {
+        position: relative !important;
+        bottom: 37px;
+        left: 0px;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .Services .pt-4 {
+        flex-direction: column;
+        gap: 30px;
+    }
+}
+
+/*
+* ----------------------------------------------------------------------------------------
+* 10.Visa CSS STYLE
+* ----------------------------------------------------------------------------------------
+*/
+
+@media screen and (max-width: 1399px) {
+    .Visa p {
+        padding: 0px;
+    }
+
+    .Visa .m-0 {
+        width: 90%;
+    }
+
+    .Visa .row {
+        width: 85%;
+    }
+}
+
+@media screen and (max-width: 1199px) {
+    .Visa {
+        padding: 100px 0px 0px;
+    }
+
+    .Visa h3 {
+        padding: 0px 0px 10px;
+    }
+}
+
+@media screen and (max-width: 991px) {
+    .Visa {
+        padding: 70px 0px 0px;
+    }
+
+    .Visa p {
+        font-size: 12px;
+    }
+
+    .Visa .gap-md-4 {
+        padding: 25px 0px 15px;
+    }
+
+    .Visa .slick-slider img {
+        width: 45px;
+        height: 45px;
+    }
+
+    .Visa .m-0 {
+        width: 100%;
+    }
+
+    .Visa .row {
+        padding: 40px 20px;
+        width: 95%;
+        top: -70px;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .Visa .position-absolute {
+        position: relative !important;
+        top: 0px;
+        margin: 30px 0px 0px;
+    }
+
+    .Visa .slick-slider {
+        margin: 30px 0px 0px;
+    }
+
+    .Visa {
+        padding: 120px 0px 0px;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .Visa {
+        padding: 145px 0px 0px;
+    }
+
+    .Visa .row {
+        width: 90%;
+        top: -50px;
+        padding: 30px 15px;
+    }
+
+    .Visa .hover1 {
+        margin: 20px 0px 0px;
+    }
+}
+
+@media screen and (max-width: 360px) {
+    .Visa {
+        padding: 10px 0px 0px;
+    }
+}
+
+/*
+* ----------------------------------------------------------------------------------------
+* 11.Pricing CSS STYLE
+* ----------------------------------------------------------------------------------------
+*/
+
+@media screen and (max-width: 1399px) {
+    .Pricing .PricingCard li {
+        width: 86%;
+    }
+
+    .Pricing .text-center p {
+        padding: 15px 0px 40px 0px;
+    }
+
+}
+
+@media screen and (max-width: 1199px) {
+    .Pricing .text-center h2 {
+        width: 102%;
+    }
+
+    .Pricing .PricingCard {
+        padding: 25px 15px 30px;
+    }
+
+    .Pricing .PricingCard h5 {
+        left: -15px;
+    }
+}
+
+@media screen and (max-width: 991px) {
+    .Pricing {
+        padding: 70px 0px;
+    }
+
+    .Pricing .text-center h2 {
+        width: 100%;
+    }
+
+    .Pricing .PricingCard li {
+        font-size: 12px;
+        padding: 0px 0px 0px 15px;
+        width: 80%;
+    }
+
+    .Pricing .text-center p {
+        padding: 10px 0px 30px 0px;
+    }
+
+    .Pricing .PricingCard ul {
+        padding: 0px;
+    }
+
+    .Pricing .PricingCard .justify-content-between {
+        padding: 20px 0px 0px;
+    }
+
+    .Pricing .hover1 {
+        margin: 25px 0px 0px;
+    }
+
+    .Pricing img {
+        width: 78%;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .Pricing .position-relative::before {
+        background-size: 87% 118%;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .Pricing {
+        padding: 50px 0px;
+    }
+
+    .Pricing .hover1 {
+        width: 100%;
+    }
+
+    .Pricing .position-relative::before {
+        background-size: 100% 117%;
+    }
+
+    .Pricing .PricingCard .justify-content-between {
+        flex-wrap: wrap;
+        gap: 15px;
+    }
+
+    .Pricing .PricingCard li {
+        width: 100%;
+    }
+}
+
+/*
+* ----------------------------------------------------------------------------------------
+* 12.Testimonial CSS STYLE
+* ----------------------------------------------------------------------------------------
+*/
+
+@media screen and (max-width: 1399px) {
+    .Testimonial .TestimonialSlider p {
+        width: 78%;
+    }
+
+    .Testimonial .mx-auto p {
+        padding: 15px 85px 40px;
+    }
+}
+
+@media screen and (max-width: 1199px) {
+    .Testimonial .TestimonialSlider {
+        width: 92%;
+    }
+
+    .Testimonial .slick-prev {
+        left: 0%;
+    }
+
+    .Testimonial .slick-next {
+        right: 0%;
+    }
+
+    .Testimonial .mx-auto p {
+        padding: 15px 15px 40px;
+    }
+}
+
+@media screen and (max-width: 991px) {
+    .Testimonial {
+        padding: 70px 0px;
+    }
+
+    .Testimonial .TestimonialSlider .position-absolute {
+        top: 20px;
+        right: 5%;
+        width: 50px;
+    }
+
+    .Testimonial .TestimonialSlider p {
+        font-size: 12px;
+    }
+
+    .Testimonial .slick-prev,
+    .Testimonial .slick-next {
+        width: 55px;
+        height: 55px;
+        padding: 12px;
+    }
+
+    .Testimonial .TestimonialSlider .rounded-circle {
+        left: 44%;
+        top: -45px;
+        width: 95px;
+    }
+
+    .Testimonial .TestimonialSlider {
+        padding: 75px 20px 20px;
+        margin: 50px auto 0px;
+    }
+
+    .Testimonial .mx-auto p {
+        padding: 15px 15px 30px;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .Testimonial {
+        padding: 50px 0px;
+    }
+
+    .Testimonial .TestimonialSlider {
+        width: 90%;
+    }
+
+    .Testimonial .slick-prev,
+    .Testimonial .slick-next {
+        width: 45px;
+        height: 45px;
+        padding: 10px;
+    }
+
+    .Testimonial .TestimonialSlider p {
+        width: 88%;
+    }
+
+    .Testimonial .TestimonialSlider .rounded-circle {
+        left: 40%;
+        top: -40px;
+        width: 85px;
+    }
+
+    .Testimonial .TestimonialSlider .gap-1 {
+        padding: 12px 0px;
+    }
+
+    .Testimonial .TestimonialSlider .position-absolute {
+        top: 20px;
+        right: 5%;
+        width: 35px;
+    }
+
+    .Testimonial .TestimonialSlider {
+        padding: 65px 20px 20px;
+    }
+
+    .Testimonial .mx-auto p {
+        padding: 10px 15px 10px;
+    }
+}
+
+@media screen and (max-width: 360px) {
+    .Testimonial .TestimonialSlider .rounded-circle {
+        left: 35%;
+        top: -35px;
+        width: 80px;
+    }
+
+    .Testimonial h3 {
+        width: 95%;
+    }
+}
+
+/*
+* ----------------------------------------------------------------------------------------
+* 13.FAQ CSS STYLE
+* ----------------------------------------------------------------------------------------
+*/
+
+@media screen and (max-width: 1399px) {
+    .FAQ h2 {
+        width: 98%;
+    }
+
+    .FAQ p {
+        padding: 15px 30px 30px 0px;
+    }
+}
+
+@media screen and (max-width: 1199px) {
+    .FAQ h2 {
+        width: 100%;
+    }
+
+    .FAQ p {
+        padding: 15px 0px 30px;
+    }
+
+    .FAQ .accordion-button,
+    .FAQ .accordion-button:not(.collapsed) {
+        padding: 0px 20px 0px 30px;
+    }
+
+    .FAQ .accordion-body {
+        padding: 20px 50px 10px 30px;
+    }
+
+    .QuestionFAQ .text-center p {
+        width: 80%;
+    }
+}
+
+@media screen and (max-width: 991px) {
+    .FAQ {
+        padding: 70px 0px;
+    }
+
+    .FAQ .accordion-button {
+        font-size: 16px;
+    }
+
+    .FAQ .accordion {
+        padding: 15px 0px;
+    }
+
+    .FAQ p {
+        padding: 10px 0px 25px;
+    }
+}
+
+@media screen and (max-width: 767px) {
+
+    .QuestionFAQ .text-center h4,
+    .QuestionFAQ .text-center p {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .FAQ {
+        padding: 50px 0px;
+    }
+
+    .FAQ .accordion-button {
+        font-size: 14px;
+    }
+
+    .FAQ .hover1 {
+        width: 100%;
+    }
+
+    .FAQ .accordion-button,
+    .FAQ .accordion-button:not(.collapsed) {
+        padding: 0px 15px 0px 25px;
+    }
+
+    .FAQ .accordion-body {
+        padding: 15px 45px 0px 25px;
+    }
+}
+
+/*
+* ----------------------------------------------------------------------------------------
+* 14.Blog CSS STYLE
+* ----------------------------------------------------------------------------------------
+*/
+
+@media screen and (max-width: 1399px) {
+    .Blog .BlogCard h5 {
+        width: 100%;
+    }
+
+    .Blog .BlogCard p {
+        padding: 15px 9px 20px 0px;
+    }
+
+    .Blog .text-center p {
+        padding: 15px 85px 40px;
+    }
+}
+
+@media screen and (max-width: 1199px) {
+    .Blog .text-center p {
+        padding: 15px 10px 40px;
+    }
+}
+
+@media screen and (max-width: 991px) {
+    .Blog {
+        padding: 0px 0px 70px;
+    }
+
+    .Blog .BlogCard p {
+        padding: 10px 9px 15px 0px;
+        font-size: 12px;
+    }
+
+    .Blog .BlogCard .mb-md-4 p {
+        font-size: 12px;
+    }
+
+    .Blog .BlogCard .mb-md-4 .d-flex {
+        gap: 10px;
+    }
+
+    .Blog .BlogCard .mb-md-4 img {
+        width: 12px;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .Blog {
+        padding: 0px 0px 50px;
+    }
+
+    .Blog .BlogCard img.w-100 {
+        margin: 0px 0px 20px;
+    }
+}
+
+/*
+* ----------------------------------------------------------------------------------------
+* 15.NewsLetter CSS STYLE
+* ----------------------------------------------------------------------------------------
+*/
+
+@media screen and (max-width: 1399px) {
+    .NewsLetter form {
+        width: 58%;
+    }
+
+    .NewsLetter .text-danger {
+        width: 54%;
+    }
+}
+
+@media screen and (max-width: 1199px) {
+    .NewsLetter form {
+        width: 69%;
+    }
+
+    .NewsLetter .text-danger {
+        width: 64%;
+    }
+}
+
+@media screen and (max-width: 991px) {
+    .NewsLetter p {
+        padding: 5px 0px 20px;
+    }
+
+    .NewsLetter form {
+        width: 80%;
+    }
+
+    .NewsLetter .text-danger {
+        width: 74%;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .NewsLetter input {
+        padding-left: 15px;
+        font-size: 14px;
+    }
+
+    .NewsLetter form {
+        width: 100%;
+    }
+
+    .NewsLetter .text-danger {
+        width: 90%;
+    }
+}
+
+/*
+* ----------------------------------------------------------------------------------------
+* 16.Footer CSS STYLE
+* ----------------------------------------------------------------------------------------
+*/
+
+@media screen and (max-width: 991px) {
+    footer {
+        padding: 70px 0px 0px;
+    }
+
+    footer .rounded-circle {
+        width: 28px;
+        height: 28px;
+    }
+
+    footer .rounded-circle svg {
+        width: 14px;
+    }
+
+    footer .slick-slider img {
+        width: 60px;
+        height: 30px;
+    }
+
+    footer img[alt="logo"] {
+        width: 130px;
+    }
+
+    footer .justify-content-between {
+        padding: 18px 0px;
+    }
+
+    footer ul {
+        gap: 25px;
+        padding: 25px 0px 20px;
+    }
+
+    footer .py-2 p {
+        color: #ffffff;
+        font-size: 12px;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    footer .justify-content-between {
+        gap: 20px;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    footer {
+        padding: 50px 0px 0px;
+    }
+
+    footer .rounded-circle {
+        width: 35px;
+        height: 35px;
+    }
+
+    footer .rounded-circle svg {
+        width: 18px;
+    }
+
+    footer .py-2 p {
+        padding: 0px 15px;
+    }
+}
+
+/*
+* ----------------------------------------------------------------------------------------
+* 17.SubPage_Hero CSS STYLE
+* ----------------------------------------------------------------------------------------
+*/
+
+@media screen and (max-width: 1399px) {
+    .SubPage_Hero p {
+        width: 55%;
+    }
+}
+
+@media screen and (max-width: 991px) {
+    .SubPage_Hero {
+        padding: 50px 0px 70px;
+    }
+
+    .SubPage_Hero p {
+        width: 73%;
+        padding: 10px 0px 0px;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .SubPage_Hero {
+        padding: 30px 0px 50px;
+    }
+
+    .SubPage_Hero p {
+        width: 87%;
+        padding: 10px 0px 0px;
+    }
+}
+
+/*
+* ----------------------------------------------------------------------------------------
+* 18.Simplicity CSS STYLE
+* ----------------------------------------------------------------------------------------
+*/
+
+@media screen and (max-width: 1399px) {
+    .Simplicity p {
+        padding: 15px 0px 25px 0px;
+    }
+}
+
+@media screen and (max-width: 1199px) {
+    .Simplicity .text-center {
+        width: 51%;
+    }
+}
+
+@media screen and (max-width: 991px) {
+    .Simplicity {
+        padding: 70px 0px 0px;
+    }
+
+    .Simplicity .text-center {
+        width: 56%;
+    }
+
+    .Simplicity .flex-column {
+        padding: 55px 26px 45px;
+    }
+
+    .Simplicity p {
+        padding: 10px 0px 20px 0px;
+    }
+
+}
+
+@media screen and (max-width: 767px) {
+    .Simplicity .text-center {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .Simplicity {
+        padding: 50px 0px 0px;
+    }
+
+    .Simplicity .flex-column {
+        padding: 50px 18px;
+    }
+}
+
+/*
+* ----------------------------------------------------------------------------------------
+* 19.Stats CSS STYLE
+* ----------------------------------------------------------------------------------------
+*/
+
+@media screen and (max-width: 1399px) {
+    .Stats .text-md-start p {
+        padding: 15px 38px 30px 0px;
+    }
+
+    .Stats .StatsCard {
+        padding: 45px 50px;
+    }
+}
+
+@media screen and (max-width: 1199px) {
+    .Stats .StatsCard {
+        padding: 40px 30px;
+    }
+
+    .Stats .text-md-start p {
+        padding: 15px 0px 30px;
+    }
+
+    .Stats h2 {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 991px) {
+    .Stats {
+        padding: 0px 0px 70px;
+    }
+
+    .Stats .StatsCard {
+        padding: 35px 30px;
+    }
+
+    .Stats .text-md-start p {
+        padding: 10px 0px 20px;
+    }
+
+    .Stats .StatsCard p {
+        font-size: 12px;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .Stats {
+        padding: 0px 0px 50px;
+    }
+
+    .Stats .StatsCard {
+        padding: 35px;
+    }
+}
+
+@media screen and (max-width: 360px) {
+    .Stats .StatsCard {
+        padding: 35px 20px;
+    }
+}
+
+/*
+* ----------------------------------------------------------------------------------------
+* 20.Team CSS STYLE
+* ----------------------------------------------------------------------------------------
+*/
+
+@media screen and (max-width: 1399px) {
+    .Team .TeamCard p {
+        padding: 15px 0px 25px;
+    }
+
+    .Team .TeamCard {
+        gap: 25px;
+    }
+
+    .Team .TeamCard img {
+        border-radius: 80px;
+    }
+
+    .Team .mx-auto p {
+        width: 45%;
+    }
+}
+
+@media screen and (max-width: 1199px) {
+    .Team .TeamCard {
+        gap: 20px;
+    }
+
+    .Team .mx-auto p {
+        width: 54%;
+    }
+}
+
+@media screen and (max-width: 991px) {
+    .Team {
+        padding: 70px 0px;
+    }
+
+    .Team .TeamCard a {
+        width: 30px;
+        height: 30px;
+    }
+
+    .Team .TeamCard a svg {
+        width: 15px;
+    }
+
+    .Team .TeamCard p {
+        padding: 10px 0px 20px;
+        font-size: 12px;
+    }
+
+    .Team .TeamCard img {
+        border-radius: 50px;
+    }
+
+    .Team .mx-auto p {
+        width: 61%;
+        padding: 10px 0px 40px;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .Team {
+        padding: 50px 0px;
+    }
+
+    .Team .TeamCard p {
+        padding: 5px 0px 15px;
+    }
+
+    .Team .mx-auto p {
+        width: 82%;
+    }
+}
+
+@media screen and (max-width: 360px) {
+    .Team .TeamCard {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .Team .TeamCard .flex-column {
+        align-items: center;
+    }
+
+    .Team .mx-auto p {
+        width: 90%;
+    }
+}
+
+/*
+* ----------------------------------------------------------------------------------------
+* 21.FeaturesHero CSS STYLE
+* ----------------------------------------------------------------------------------------
+*/
+
+@media screen and (max-width: 991px) {
+    .FeaturesHero {
+        padding: 0px 0px 100px;
+    }
+
+    .FeaturesHero .position-relative::before {
+        border-radius: 30px;
+    }
+
+    .FeaturesHero a svg {
+        width: 65px;
+        height: 65px;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .FeaturesHero {
+        padding: 0px 0px 60px;
+    }
+
+    .FeaturesHero a svg {
+        width: 50px;
+        height: 50px;
+    }
+
+    .FeaturesHero .position-relative::before {
+        border-radius: 20px;
+        height: 91%;
+    }
+}
+
+/*
+* ----------------------------------------------------------------------------------------
+* 22.CoreFeatures CSS STYLE
+* ----------------------------------------------------------------------------------------
+*/
+
+@media screen and (max-width: 1399px) {
+    .CoreFeatures .ServicesCard p {
+        width: 100%;
+    }
+
+    .CoreFeatures .mx-auto p {
+        width: 78%;
+    }
+}
+
+@media screen and (max-width: 1199px) {
+    .CoreFeatures img {
+        width: 100%;
+    }
+
+    .CoreFeatures .position-relative::before {
+        top: 59%;
+        width: 80%;
+    }
+}
+
+@media screen and (max-width: 991px) {
+    .CoreFeatures {
+        padding: 0px 0px 70px;
+    }
+
+    .CoreFeatures .ServicesCard {
+        padding: 20px;
+    }
+
+    .CoreFeatures .mx-auto p {
+        padding: 10px 0px 60px;
+        width: 85%;
+    }
+}
+
+@media screen and (max-width: 767px) {
+
+    .CoreFeatures .m-0 .ServicesCard,
+    .CoreFeatures .ServicesCard {
+        text-align: center;
+        align-items: center;
+    }
+
+    .CoreFeatures .mx-auto p {
+        padding: 10px 0px 30px;
+        width: 85%;
+    }
+
+    .CoreFeatures img {
+        width: 50%;
+    }
+
+    .CoreFeatures .col-xl-4 {
+        order: 1;
+    }
+
+    .CoreFeatures .position-relative::before {
+        top: 100%;
+        width: 100%;
+        height: 46%;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .CoreFeatures {
+        padding: 0px 0px 50px;
+    }
+
+    .CoreFeatures .position-relative::before {
+        top: 59%;
+        width: 100%;
+        height: 46%;
+        transform: translate(-50%, 0%);
+    }
+
+    .CoreFeatures img {
+        margin: 60px 0px 0px;
+    }
+
+    .CoreFeatures .position-relative::before {
+        top: 59%;
+        height: 38%;
+    }
+
+    .CoreFeatures .mx-auto p {
+        width: 95%;
+    }
+}
+
+@media screen and (max-width: 360px) {
+    .CoreFeatures img {
+        margin: 10px 0px 0px;
+    }
+
+    .CoreFeatures .position-relative::before {
+        top: 68%;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .CoreFeatures .position-relative::before {
+        top: 73%;
+        height: 30%;
+    }
+}
+
+/*
+* ----------------------------------------------------------------------------------------
+* 23.ContactDetails CSS STYLE
+* ----------------------------------------------------------------------------------------
+*/
+
+@media screen and (max-width: 1399px) {
+    .ContactDetails .pt-lg-2 {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 1199px) {
+
+    .ContactDetails .m-0,
+    .ContactDetails .flex-column {
+        padding: 45px 40px;
+    }
+}
+
+@media screen and (max-width: 991px) {
+    .ContactDetails {
+        padding: 0px 0px 70px;
+    }
+
+    .ContactDetails .pt-lg-2 {
+        font-size: 12px;
+        padding: 5px 0px 0px;
+    }
+
+    .ContactDetails a .d-flex {
+        gap: 15px;
+        margin: 15px 0px 0px;
+    }
+
+    .ContactDetails a svg {
+        width: 35px;
+        height: 35px;
+        padding: 7px;
+    }
+
+    .ContactDetails h6 {
+        margin: 20px 0px 0px;
+    }
+
+    .ContactDetails .m-0,
+    .ContactDetails .flex-column {
+        padding: 45px 30px;
+    }
+
+    .ContactDetails form,
+    .ContactDetails form .d-flex {
+        gap: 20px;
+    }
+
+    .ContactDetails form {
+        margin: 25px 0px 0px;
+    }
+
+    .ContactDetails form span {
+        font-size: 10px;
+    }
+
+    .ContactDetails iframe {
+        border-top-left-radius: 40px;
+        border-top-right-radius: 40px;
+        height: 500px;
+        padding: 0px 0px 70px
+    }
+}
+
+@media screen and (max-width: 767px) {
+
+    .ContactDetails form .d-flex div,
+    .ContactDetails textarea,
+    .ContactDetails input {
+        width: 100%;
+    }
+
+    .ContactDetails form,
+    .ContactDetails form .d-flex {
+        flex-direction: column;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .ContactDetails {
+        padding: 0px 0px 50px;
+    }
+
+    .ContactDetails .m-0,
+    .ContactDetails .flex-column {
+        padding: 35px 25px;
+    }
+
+    .ContactDetails textarea,
+    .ContactDetails input {
+        font-size: 12px;
+    }
+
+    .ContactDetails a .d-flex {
+        gap: 10px;
+    }
+
+    .ContactDetails form {
+        margin: 15px 0px 0px;
+    }
+
+    .ContactDetails form,
+    .ContactDetails form .d-flex {
+        gap: 15px;
+    }
+
+    .ContactDetails iframe {
+        height: 400px;
+        padding: 0px 0px 50px
+    }
+}
+
+/*
+* ----------------------------------------------------------------------------------------
+* 24.Error CSS STYLE
+* ----------------------------------------------------------------------------------------
+*/
+
+@media screen and (max-width: 1399px) {
+    .Error .flex-column p {
+        width: 53%;
+    }
+
+    .ComingSoon .flex-column p {
+        width: 75%;
+    }
+}
+
+@media screen and (max-width: 1199px) {
+    .Error .flex-column p {
+        width: 63%;
+    }
+
+    .ComingSoon .flex-column p {
+        width: 90%;
+    }
+}
+
+@media screen and (max-width: 991px) {
+    .Error {
+        padding: 70px 0px 20px;
+    }
+
+    .Error h3 {
+        padding: 10px 0px 20px;
+    }
+
+    .Error .flex-column p {
+        padding: 0px 0px 20px;
+    }
+
+    .Error .mt-4 p {
+        font-size: 12px;
+        padding: 15px 0px 0px;
+    }
+
+    .Error .flex-column p {
+        width: 69%;
+    }
+
+    .ComingSoon .flex-column p {
+        width: 90%;
+    }
+
+    .ComingSoon .flex-column h1 {
+        padding: 5px 0px 10px;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .Error {
+        padding: 50px 0px 10px;
+    }
+
+    .Error h3 {
+        padding: 5px 0px 15px;
+    }
+
+    .Error .flex-column p {
+        width: 100%;
+    }
+
+    .Error a svg {
+        width: 26px;
+        height: 26px;
+        padding: 6px;
+    }
+}

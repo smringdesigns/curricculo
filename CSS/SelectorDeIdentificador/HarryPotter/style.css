@@ -1,0 +1,16 @@
+h1 {
+    color: orange;
+}
+
+p {
+    text-align: right;
+}
+
+body{
+    background-color: white;
+}
+
+#encabezado{
+    background-color: green;
+    text-align: center;
+}

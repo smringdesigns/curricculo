@@ -1,0 +1,20 @@
+body {
+    background-color: #f1f1f1;
+   }
+   
+
+.fakeimg {
+    background-color: #FF7F50;
+   }
+   
+.texto {
+    background-color: rgb(0, 0, 255, 0.5);
+    color: white 
+   }
+   
+.card {
+    background-color: white;
+    color:crimson;
+    border-style: dotted;
+    border-color: hsl(0, 0%, 0%);
+   }
